@@ -47,11 +47,6 @@ document.addEventListener('click', ({ target }) => {
     }
 });
 
-window.addEventListener('load', ()=>{
-    document.getElementById('loader').classList.toggle('hidden')
-})
-
-
 // FUNCIONES
 const llamarAPIPrincipal = async () => {
     try {
@@ -134,7 +129,7 @@ const pintarSeleccion = (resp1) => {
         imagenRank.setAttribute('alt', elemento.title);
         imagenRank.classList.add('fotoPortada')
         const descripcion = document.createElement('p');
-        descripcion.textContent = elemento.description || "no hay descripción de esta mierda de libro";
+        descripcion.textContent = elemento.description || "No se cuentan con descripcion";
         const weeksRank = document.createElement('p')
         weeksRank.textContent = `Weeks on List: ${elemento.weeks_on_list}`
         const botonAmazon = document.createElement('button')
