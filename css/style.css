@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo {
+    width: 700px;
+    display: block;
+    padding-bottom: 25px;
+}
+.mainIndex {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px
+}
+#listaLibros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+    margin-top: 20px;   
+    padding-top: 20px;
+}
+.bookCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 45%;
+    height: 200px;
+    margin: 10px 0 25px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 139, 139);
+    box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+}
+.botonRead {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 139, 139);
+    box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+}
+.amazonButton {
+    display: inline;
+    background-color: rgb(238, 158, 9);
+    color: white;
+    border: 1px solid rgb(238, 158, 9);
+    box-shadow: 2px 2px 2px 1px rgb(238, 158, 9, 0.3);
+    padding: 10px;
+    font-size: 10px;
+}
+.buttonBack {
+    display: inline;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: rgb(180, 36, 36);
+    color: white;
+    border: 1px solid rgb(138, 139, 139);
+    box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3);
+    padding: 10px;
+    font-size: 10px;
+}
+.encabezadoCard {
+    gap: 25px;
+    border-bottom: 1px solid rgb(184, 189, 189);
+}
+.subtitulo {
+    color: rgba(41, 40, 40, 0.699);
+    font-size: 30px;
+}
+.cardsRank {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 45%;
+    height: 600px;
+    margin: 10px 0 25px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 139, 139);
+    box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+}
+.fotoPortada {
+    width: 100%;
+}
+#subtitulo {
+    font-size: 35px;
+    color:rgba(97, 97, 97, 0.911);
+}
+@media (min-width: 800px) {
+    .botonRead {
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgb(138, 139, 139);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+    }
+    .amazonButton {
+        width: 100%;
+        background-color: rgb(238, 158, 9);
+        color: white;
+        border: 1px solid rgb(238, 158, 9);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3);
+        padding: 10px;
+        font-size: 10px;
+    }
+    .bookCard {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        width: 30%;
+        height: 200px;
+        margin: 10px 0 25px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(138, 139, 139);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+    }
+    .cardsRank {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        width: 30%;
+        height: 600px;
+        margin: 10px 0 25px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(138, 139, 139);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+    }
+    .fotoPortada {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .botonRead {
+        width: 50%;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgb(138, 139, 139);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+    }
+    .amazonButton {
+        width: 50%;
+        background-color: rgb(238, 158, 9);
+        color: white;
+        border: 1px solid rgb(238, 158, 9);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3);
+        padding: 10px;
+        font-size: 10px;
+    }
+    .bookCard {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        width: 22%;
+        height: 200px;
+        margin: 10px 0 25px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(138, 139, 139);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+    }
+    .cardsRank {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        width: 22%;
+        height: 600px;
+        margin: 10px 0 25px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(138, 139, 139);
+        box-shadow: 2px 2px 2px 1px rgba(104, 101, 101, 0.3)
+    }
+    .fotoPortada {
+        width: 100%;
+    }
+}
+/*loader*/
+.centrado {
+    height: 100vh;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    overflow: hidden;
+}
+.lds-roller,
+.lds-roller div,
+.lds-roller div:after {
+  box-sizing: border-box;
+}
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7.2px;
+  height: 7.2px;
+  border-radius: 50%;
+  background: currentColor;
+  margin: -3.6px 0 0 -3.6px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 62.62742px;
+  left: 62.62742px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 67.71281px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 70.90963px;
+  left: 48.28221px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 70.90963px;
+  left: 31.71779px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 67.71281px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 62.62742px;
+  left: 17.37258px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12.28719px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
